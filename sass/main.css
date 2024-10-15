@@ -401,6 +401,304 @@ header.shrink .logo img {
   justify-content: center;
 }
 
+.section5 {
+  background: rgb(250, 250, 250);
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section5 .section5com {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 40px;
+}
+.section5 .section5com img {
+  max-width: 100%;
+  height: auto;
+}
+.section5 .section5com p {
+  color: rgb(0, 0, 0);
+  font-family: Effra;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.section5 .section5com .card5row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 37px;
+}
+.section5 .section5com .card5row .cardsrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  transition: 0.4s;
+}
+.section5 .section5com .card5row .cardsrow:hover {
+  border-radius: 8px;
+  background: rgb(168, 255, 53);
+}
+.section5 .section5com button {
+  margin-top: 40px;
+  margin-bottom: 140px;
+  color: rgb(255, 255, 255);
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 40px;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  background: rgb(0, 0, 0);
+}
+
+.section6 {
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 80px;
+}
+.section6 p {
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Effra;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+}
+.section6 .menuu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.section6 .menuu .monthly-p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section6 .menuu .yearly-p {
+  color: rgb(245, 245, 245);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.5;
+}
+.section6 .corcards {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.section6 .corcards .card-carusel {
+  transition: background-color 0.3s ease;
+  width: 350px;
+  height: 640px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: "Arial", sans-serif;
+}
+.section6 .corcards .card-carusel .plan-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0 5px 0;
+}
+.section6 .corcards .card-carusel .plan-subtitle {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+  line-height: 15px;
+  padding-left: 0px;
+}
+.section6 .corcards .card-carusel .narx {
+  display: flex;
+  align-items: baseline;
+  text-align: start;
+  margin-bottom: 30px;
+}
+.section6 .corcards .card-carusel .narx .dollar {
+  font-size: 24px;
+  vertical-align: top;
+}
+.section6 .corcards .card-carusel .narx .bahosi {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+.section6 .corcards .card-carusel .narx .oy {
+  font-size: 18px;
+  color: gray;
+}
+.section6 .corcards .card-carusel .pagelar {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: start;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: left;
+}
+.section6 .corcards .card-carusel .pagelar li {
+  font-size: 16px;
+  margin: 10px 0;
+  color: black;
+}
+.section6 .corcards .card-carusel .page1 {
+  margin-bottom: 174px;
+}
+.section6 .corcards .card-carusel .page2 {
+  margin-bottom: 128px;
+}
+.section6 .corcards .card-carusel .cta-button {
+  background-color: #c4fb3b;
+  color: black;
+  transition: 0.4s;
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 29px;
+  border: none;
+  width: 296px;
+  height: 58px;
+  padding: 15px 30px;
+}
+.section6 .corcards .card-carusel:hover {
+  border-radius: 16px;
+  background: rgb(168, 255, 53);
+}
+.section6 .corcards .card-carusel:hover .cta-button {
+  color: rgb(255, 255, 255);
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 29px;
+  background: rgb(0, 0, 0);
+  padding: 15px 30px;
+  width: 296px;
+  height: 58px;
+}
+
+.section7 {
+  background: rgb(168, 255, 53);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.section7 p:first-child {
+  margin-top: 120px;
+  color: rgb(0, 0, 0);
+  font-family: Effra;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 112%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.section7 p:nth-child(2) {
+  color: rgb(0, 0, 0);
+  font-family: Effra;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 112%;
+  letter-spacing: 0%;
+  opacity: 0.3;
+  text-align: center;
+}
+.section7 button {
+  color: rgb(255, 255, 255);
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 16px 32px 16px 32px;
+  width: 180px;
+  height: 57px;
+  border-radius: 40px;
+  border: none;
+  background: rgb(0, 0, 0);
+  margin-bottom: 120px;
+  margin-top: 40px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 80px;
+  gap: 40px;
+}
+footer .footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer .footer-menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
